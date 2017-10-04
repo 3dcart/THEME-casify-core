@@ -714,6 +714,12 @@ span.freeshipping {
     .footer-social {
         text-align: center;
     }
+.navbar-nav > li.dropdown > a:after {
+    display:none;
+}
+.navbar-nav > li > .dropdown-menu{
+	display:none;
+}
 }
 @media(max-width: 767px) {
     .logo {
