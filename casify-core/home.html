@@ -72,8 +72,8 @@
 <script type="text/javascript" charset="utf-8">
     jQuery(function () {
         jQuery('.homeCarousel').flexslider({
-            animation: jQuery(this).data('animation'),
-            slideshowSpeed: jQuery(this).data('slideshowSpeed'),
+            animation: jQuery('.homeCarousel').attr('data-animation'),
+            slideshowSpeed: jQuery('.homeCarousel').attr('data-slideshowspeed'),
             controlNav: false,
             keyboard: false
         });
