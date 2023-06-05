@@ -1,7 +1,7 @@
 /*
 ** Bootstrap over-rides
 */
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap');
 body {
 	display: flex;
 	height: 100%;
@@ -34,6 +34,11 @@ footer {
 }
 .product-items.productList .product-item .img a {
     position: initial;
+}
+@media (max-width: 767px) {
+	.antiCls-xs { 
+		visibility: hidden; 
+	}
 }
 @media (max-width: 991px){
 .product-items.productList .product-item .img {
@@ -225,7 +230,7 @@ h1 {
     content: "\f107";
     font-family: "fontello";
     font-size: 18px;
-    line-height: 0;
+    line-height: 1;
     margin-left: 5px;
 }
 @media (max-width: 1023px) {
@@ -506,7 +511,7 @@ ul.extrapages li a {
     background-color: #fff;
     border-color: #2d2d2d;
     max-width: 80%;
-    color: #afafaf;
+    color: #000;
     float: left;
 }
 .mailinglist-submit {
