@@ -369,26 +369,6 @@
 	<script src="assets/templates/common-core/lib/bootstrap/js/bootstrap.js" defer="defer"></script>
 	<script src="assets/templates/common-core/js/core.js" defer="defer"></script>
 	<script src="assets/templates/[template]/js/main.js" defer="defer"></script>
-    <script>
-        $(document).ready(function () {
-
-            //Check to see if the window is top if not then display button
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 100) {
-                    $('.scrollToTop').fadeIn();
-                } else {
-                    $('.scrollToTop').fadeOut();
-                }
-            });
-
-            //Click event to scroll to top
-            $('.scrollToTop').click(function () {
-                $('html, body').animate({ scrollTop: 0 }, 800);
-                return false;
-            });
-
-        });
-    </script>
 	[page_scripts]
 	<!--END: page_scripts-->
 
@@ -408,7 +388,7 @@
 			media="screen"
         />
     </noscript>
-    <script type="text/javascript" src="assets/templates/common-html5/quicksearch/jquery.quicksearch.js" defer></script>
+    <script type="text/javascript" src="assets/templates/common-core/quicksearch/jquery.quicksearch.js" defer></script>
     <script type="text/javascript">
         jQuery(function () {
             jQuery('#searchlight').searchlight('/search_quick.asp');
