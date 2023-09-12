@@ -35,6 +35,7 @@ footer {
 .product-items.productList .product-item .img a {
     position: initial;
 }
+#mobSearch{display:none !important}
 @media (max-width: 767px) {
 	.antiCls-xs { 
 		visibility: hidden; 
